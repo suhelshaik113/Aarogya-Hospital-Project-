@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Georgia;
+    box-sizing: border-box;
+}
+
+ ul{
+    float:right;
+    
+}
+ ul li{
+    background-color: transparent;
+    width: 130px;
+    height: 30px;
+    line-height: 30px;
+    list-style: none;
+    position: relative;
+    text-align: center;
+    float: left;
+    margin-left: 40px;
+    margin-top: 10px;
+    color: aliceblue;
+    font-size: 19px;
+}
+ ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 0px 16px;
+    border: 1px solid wheat;
+    transition: 0.6s ease;
+    display: block;
+}
+ ul li a:hover{
+    background-color: rgb(10, 219, 219);
+    color: rgb(248, 10, 228);
+}
+
+
+ul li ul {
+    display: none;
+    position: absolute;
+    background-color:transparent;
+    border-radius: 0px 0px 5px 5px;
+    transition: 1s all;
+}
+ul li:hover ul{
+    display: block;
+}
+ul li ul li{
+    line-height: 1;
+    width: 250px;
+    border-radius: 5px;
+    padding: 6px;
+}
+ul li ul li a{
+    padding: 10px 16px;
+}
+
+.logo img{
+    float: left;
+    width:150px;
+    height: auto;
+}
+.container1{
+    
+    width: 100%;
+    background-image: url("../1.jpg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    animation-name: myani;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+.content{
+    width: 20%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+    0 10px 10px rgba(0,0,0,0.22);
+    transition: .4s;
+    background: whitesmoke;
+}
+.content:hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16),
+    0 3px 6px rgba(0,0,0,0.23);
+    transform: translate(0px,-8px);
+}
+img{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+p{
+    text-align: center;
+    color: black;
+    padding-top: 0 8px;
+}
+h6{
+    font-size: 26px;
+    text-align: center;
+    color: chartreuse;
+    margin: 0;
+}
+button{
+    text-align: center;
+    font-size: 24px;
+    color:black;
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.buy-1{
+    background: orange;
+}
+@media(max-width:1000px){
+    .content{
+        width: 45%;
+    }
+}
+@media(max-width:750px){
+    .content{
+        width: 100%;
+    }
+}
+.dept{
+    text-align: center;
+    padding-top: 20px;
+}
+.about{
+    text-align: center;
+    font-family: 'Times New Roman';
+    margin: 0;
+    font-size: 25px;
+}
+.section{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+    margin: 10rem auto 0 auto;
+    background-size: cover;
+    
+
+}
+.section img{
+    height: 250px;
+}
+.section h1{
+    margin: 0;
+    color: greenyellow;
+}
+.section p{
+    color: black;
+    margin-right: 15px;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+}

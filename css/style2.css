@@ -1,0 +1,11 @@
+.container{
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    width: 100%;
+    background-size: 100% 100%;
+    height: 205vh;
+    background-image: url("../kids-stethoscopes-playing-doctors-near-little-patient-lying-hospital-bed-89893300.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
